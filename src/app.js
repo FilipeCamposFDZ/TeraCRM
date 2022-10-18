@@ -8,7 +8,7 @@ import cors from 'cors';
 const app = express();
 app.use(cors());
 
-dotenv.config();
+dotenv.config({silent: true});
 
 app.use(express.json());
 
